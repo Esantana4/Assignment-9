@@ -45,7 +45,7 @@ void mainMenu()
         switch (option)
         {
         case 0: exit(1); break;
-        case 1: system("cls"); patternObject1.pattern(0, 8) ; break;
+        case 1: system("cls"); patternObject1.pattern(0, 8); system("pause"); system("cls"); mainMenu(); break;
         case 2: system("cls"); ; break;
         case 3: system("cls"); ; break;
         case 4: system("cls"); ; break;
