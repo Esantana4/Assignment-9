@@ -5,12 +5,12 @@ using namespace std;
 class Pattern
 {
 private:
-	int left;
-	int length;
+	int left; // spaces
+	int length; // length of pattern
 
 public:
-	Pattern();
-	Pattern(int newLeft, int newLength);
-	void pattern(int left, int length);
+	Pattern(); // Initializer Constructor
+	Pattern(int newLeft, int newLength); // Argument Constructor
+	void pattern(int left, int length); // creates pattern using recursion
 };
 
