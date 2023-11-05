@@ -21,7 +21,6 @@ void Pattern::pattern(int left, int length)
 		return;
 
 	pattern(left, length / 2); // Recursive call with halved length.
-	// Left start at 15
 
 	cout << '\t'; // Output a tab
 
@@ -34,5 +33,4 @@ void Pattern::pattern(int left, int length)
 	cout << '\n'; // Output a new line
 
 	pattern(left + length / 2, length / 2); // Recursive call with adjusted parameters
-	// left starts at 15
 }
