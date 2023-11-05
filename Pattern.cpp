@@ -1,11 +1,15 @@
 #include "Pattern.h"
 
+//precondition - default, no argument constructor
+//postcondition - No return. Intialize private variables
 Pattern::Pattern()
 {
 	left = 0; // spaces
 	length = 0; // length of pattern
 }
 
+//precondition - Parameters: int newLeft, int newLength. Argument constructor
+//postcondition - No return. Set left to newLeft and length to newLength
 Pattern::Pattern(int newLeft, int newLength)
 {
 	left = newLeft;
